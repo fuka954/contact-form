@@ -1,0 +1,81 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main {
+    width: 80%;
+}
+
+.confirmation__content {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.confirm-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.confirm-table th,
+.confirm-table td {
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.confirm-table th {
+    background: #BAA899;
+    width: 30%;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.confirm-table td {
+    background-color: #FFFFFF;
+    padding: 10px 0 0 30px;
+    color: #8B7969;
+}
+
+.button-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-button,
+.edit-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.submit-button {
+    background: #82756A;
+    color: #FFFFFF;
+}
+
+.edit-button {
+    background-color: #FFFFFF;;
+    color: #8B7969;
+    text-decoration: underline;
+}
+
+.submit-button:hover {
+    background-color: #6e4c39;
+}
+
+.edit-button:hover {
+    font-weight: bold;
+}

@@ -1,0 +1,159 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main {
+    width: 80%;
+}
+
+.contact__content {
+    position: relative;
+    margin: 0 auto;
+    width: 75%;
+    max-width: 1230px;
+    padding: 0 15px 30px 15px;
+    color: #8B7969;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form__group-title {
+    width: 30%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input,
+textarea,
+select {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #8B7969;
+    font-size: 14px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #8B7969;
+}
+
+input[type="radio"] {
+    width: auto;
+    background-color: #8B7969;
+}
+
+.radio-group {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radio-item {
+    margin-right: 70px;
+}
+
+.note {
+    margin-left: 5px;
+    color: red;
+}
+
+.contact__alert--danger {
+    color: red;
+    font-size: 12px;
+    height: 10px;
+    visibility: visible;
+    font-weight: bold;
+}
+
+.contact__alert--danger.active {
+    visibility: visible;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #82756A;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #5a3f34;
+}
+
+.form__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.name-group {
+    display: flex;
+    gap: 60px;
+    width: 100%;
+}
+
+.name-group input {
+    width: 270px;
+}
+
+.name-group input {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+.name-group__alert {
+    display: flex;
+    gap: 210px;
+    width: 100%;
+}
+
+.tel-group {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.tel-group input {
+    width: 170px;
+}
+
+.tel-inputs {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tel-inputs input[type="text"] {
+    width: 60px;
+    text-align: center;
+}
+
+.tel-inputs span {
+    align-items: center;
+    width: 5px;
+    font-size: 16px;
+    color: #8B7969;
+}

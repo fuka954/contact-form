@@ -1,0 +1,264 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main {
+    width: 80%;
+}
+
+.seach-form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+
+.search__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.search-select-gender {
+    width: 120px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    color: #8B7969;
+    border: 1px solid #E3DED9;
+    background: #E0DFDE;
+}
+
+.search-select-content {
+    width: 240px;
+    min-width: 150px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    color: #8B7969;
+    border: 1px solid #E3DED9;
+    background: #E0DFDE;
+}
+
+.search-input-date {
+    width: 130px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    color: #8B7969;
+    border: 1px solid #E3DED9;
+    background: #E0DFDE;
+}
+
+.search-input-text {
+    width: 350px;
+    padding: 10px;
+    font-size: 14px;
+    color: #8B7969;
+    border: 1px solid #E3DED9;
+    background: #E0DFDE;
+}
+
+.search-button {
+    width: 100px;
+    padding: 10px 20px;
+    font-size: 14px;
+    background: #82756A;
+    border: 1px solid #8B7969;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.reset-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #D9C6B5;
+    background: #D9C6B5;
+    color: #FFFFFF;
+    width: 100px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sub__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.admin-table td:nth-child(5) {
+    text-align: center;
+}
+
+.admin-table th,
+.admin-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.admin-table th {
+    text-align: center;
+    background: #8B7969;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.admin-table td {
+    font-size: 18px;
+    color: #8B7969;
+    background: #FFFFFF;
+    border: none;
+    border-bottom: 1px solid #E0DFDE;
+}
+
+.details-button {
+    color: #D9C6B5;
+    background: #F4F4F44D;
+    border: 1px solid #D9C6B599;
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+svg.w-5.h-5 {
+    width: 20px;
+    height: 20px;
+}
+
+.flex.justify-between.flex-1.sm\:hidden {
+    display: none;
+}
+
+.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between>div:first-child {
+    display: none;
+}
+
+.font-medium {
+    display: none;
+}
+
+.relative z-0 inline-flex shadow-sm rounded-md {
+    width: 100%;
+    max-width: 600px;
+}
+
+.pagination {
+    font-size: 18px;
+    background: #8B7969;
+}
+
+.pagination a,
+.pagination span {
+    display: inline-block;
+    text-decoration: none;
+    padding: 2px 3px;
+    background-color: #FFFFFF;
+    color: #5b4636;
+    border-color: #5b4636;
+    cursor: pointer;
+}
+
+.pagination a:hover {
+    background-color: #d9c7b6;
+}
+
+.pagination .current {
+    background-color: #5b4636;
+    color: #fff;
+    font-weight: bold;
+    cursor: default;
+}
+
+.modal {
+    width: 800px;
+    border-style: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 3, 0.2);
+}
+ 
+.modal-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.modal-content {
+    margin: 100px 40px;
+}
+
+.modal-table th,
+.modal-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.modal-table th {
+    color: #8B7969;
+    width: 40%;
+    font-size: 20px;
+}
+
+.modal-table td {
+    color: #8B7969;
+    font-size: 20px;
+}
+
+.modal-button-delete {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button-delete {
+    width: 30%;
+    padding: 10px;
+    background: #BA370D;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 26.06px;
+}
+
+.modal-button-close {
+    color: #8B7969;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;
+    align-items: center;
+}
+.button-close {
+    width: 20px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 1px solid #8B7969;
+    line-height: 25px;
+}
+
+.export-button {
+    background: #E1DBD699;
+    color: #8B7969;
+    font-size: 18px;
+    border: none;
+    padding: 5px;
+}
