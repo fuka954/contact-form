@@ -21,7 +21,7 @@
 ・Laravel 8.83.29
 ・mysql 8.0.26
 ## ER図
-![ER図](public/images/ER図.png)
+![ER図](https://github.com/fuka954/contact-form/blob/main/src/public/images/ER%E5%9B%B3.png)
 
 ## URL
 開発環境: [http://localhost/](http://localhost/)
