@@ -21,8 +21,7 @@
 ・Laravel 8.83.29
 ・mysql 8.0.26
 ## ER図
-![ER図](https://github.com/user-attachments/assets/e4a4e62d-9cd8-4f63-b932-ec31dcf7fa6c)
-
+![ER図](https://github.com/user-attachments/assets/73a5b601-8652-49f2-91d5-62b4404bec2b)
 
 ## URL
 開発環境: [http://localhost/](http://localhost/)
