@@ -22,5 +22,5 @@ php artisan db:seed
 ![ER図](https://github.com/user-attachments/assets/73a5b601-8652-49f2-91d5-62b4404bec2b)
 
 ## URL
-開発環境: [http://localhost/](http://localhost/)
+開発環境: [http://localhost/](http://localhost/)  
 phpMyAdmin: [http://localhost:8080/](http://localhost:8080/)
