@@ -3,7 +3,7 @@
 
 ## 環境構築
 - 1.リポジトリのクローン  
-git clone リンク
+git clone git@github.com:fuka954/contact-form.git
 - 2.Dockerビルド  
 docker-compose up -d --build
 - 3.Laravel環境構築  
